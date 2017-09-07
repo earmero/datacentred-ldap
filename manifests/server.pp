@@ -318,7 +318,6 @@ class ldap::server (
   $sync_scope          = $ldap::params::server_sync_scope,
   $sync_attrs          = $ldap::params::server_sync_attrs,
   $sync_schemachecking = $ldap::params::server_sync_schemachecking,
-  $sync_bindmethod     = $ldap::params::server_sync_bindmethod,
   $sync_binddn         = $ldap::params::server_sync_binddn,
   $sync_credentials    = $ldap::params::server_sync_credentials,
   $sync_mirrormode     = $ldap::params::server_sync_mirrormode,
